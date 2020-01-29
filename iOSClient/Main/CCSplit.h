@@ -23,12 +23,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CCLogin.h"
 #import "CCDetail.h"
 
 @interface CCSplit : UISplitViewController <UISplitViewControllerDelegate>
-
-@property (nonatomic, strong) NSString *version;
-@property (nonatomic, strong) NSString *build;
 
 @end
