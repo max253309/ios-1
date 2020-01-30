@@ -23,6 +23,15 @@ class NCSplitViewController: UISplitViewController {
             appDelegate.createTabBarController(tabBarController)
         }
     }
+
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        let navigationController = viewControllers.first as? UINavigationController
+        let vc = navigationController?.topViewController
+        
+        print("")
+    }
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         if #available(iOS 13.0, *) {
@@ -45,6 +54,7 @@ extension NCSplitViewController: UISplitViewControllerDelegate {
         return true
     }
     
+    /*
     func splitViewController(_ svc: UISplitViewController, willChangeTo displayMode: UISplitViewController.DisplayMode) {
         if displayMode == .primaryHidden {
             print("primaryHidden")
@@ -70,4 +80,5 @@ extension NCSplitViewController: UISplitViewControllerDelegate {
     func splitViewController(_ splitViewController: UISplitViewController, separateSecondaryFrom primaryViewController: UIViewController) -> UIViewController? {
         return primaryViewController
     }
+    */
 }

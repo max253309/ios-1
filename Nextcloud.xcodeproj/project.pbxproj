@@ -553,6 +553,7 @@
 		F7DFB7F2219C5C0000680748 /* NCCreateFormUploadFileText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFB7F1219C5C0000680748 /* NCCreateFormUploadFileText.swift */; };
 		F7DFB7F4219C5CA800680748 /* NCCreateFormUploadScanDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFB7F3219C5CA800680748 /* NCCreateFormUploadScanDocument.swift */; };
 		F7E09CDB23E2CA6E00FB3E9E /* NCSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E09CDA23E2CA6E00FB3E9E /* NCSplitViewController.swift */; };
+		F7E09CDF23E2DC5600FB3E9E /* NCMasterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E09CDE23E2DC5600FB3E9E /* NCMasterNavigationController.swift */; };
 		F7E0E1DC22327885006B0911 /* NCAudioRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E0E1DB22327885006B0911 /* NCAudioRecorderViewController.swift */; };
 		F7E0E1DE22327DBA006B0911 /* NCAudioRecorderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E0E1DD22327DBA006B0911 /* NCAudioRecorderViewController.storyboard */; };
 		F7E4D9C422ED929B003675FD /* NCShareComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E4D9C322ED929B003675FD /* NCShareComments.swift */; };
@@ -1350,6 +1351,7 @@
 		F7DFB7F1219C5C0000680748 /* NCCreateFormUploadFileText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCCreateFormUploadFileText.swift; sourceTree = "<group>"; };
 		F7DFB7F3219C5CA800680748 /* NCCreateFormUploadScanDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCCreateFormUploadScanDocument.swift; sourceTree = "<group>"; };
 		F7E09CDA23E2CA6E00FB3E9E /* NCSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSplitViewController.swift; sourceTree = "<group>"; };
+		F7E09CDE23E2DC5600FB3E9E /* NCMasterNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCMasterNavigationController.swift; sourceTree = "<group>"; };
 		F7E0E1DB22327885006B0911 /* NCAudioRecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCAudioRecorderViewController.swift; sourceTree = "<group>"; };
 		F7E0E1DD22327DBA006B0911 /* NCAudioRecorderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NCAudioRecorderViewController.storyboard; sourceTree = "<group>"; };
 		F7E45E6D21E75BF200579249 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -1616,6 +1618,7 @@
 				F73F537E1E929C8500F8678D /* CCMore.swift */,
 				F78F6FAE1CC8CCB700F4EA25 /* CCSection.h */,
 				F78F6FAF1CC8CCB700F4EA25 /* CCSection.m */,
+				F7E09CDE23E2DC5600FB3E9E /* NCMasterNavigationController.swift */,
 				F7E09CDA23E2CA6E00FB3E9E /* NCSplitViewController.swift */,
 				F7226EDB1EE4089300EBECB1 /* Main.storyboard */,
 				F7D6650620FF341600BFBA9E /* NCMainCommon.swift */,
@@ -3533,6 +3536,7 @@
 				F7B6ACD622FC2BD4008AB646 /* NCXMLCommentsParser.m in Sources */,
 				F738E8421F90FFD100F95C8E /* NCManageEndToEndEncryption.m in Sources */,
 				F78A18B823CDE2B300F681F3 /* NCViewerRichWorkspace.swift in Sources */,
+				F7E09CDF23E2DC5600FB3E9E /* NCMasterNavigationController.swift in Sources */,
 				F78A18B623CDD07D00F681F3 /* NCViewerRichWorkspaceWebView.swift in Sources */,
 				F75A9EE623796C6F0044CFCE /* NCNetworking.swift in Sources */,
 				F760F79D21F21F61006B1A73 /* CropRectView.swift in Sources */,
