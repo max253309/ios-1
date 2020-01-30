@@ -367,7 +367,6 @@
 		F77B0E221D118A16002130FE /* CCManageLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BFCCC11B68C21900548E76 /* CCManageLocation.m */; };
 		F77B0E301D118A16002130FE /* CCHud.m in Sources */ = {isa = PBXBuildFile; fileRef = F7514EDB1C7B1336008F3338 /* CCHud.m */; };
 		F77B0E311D118A16002130FE /* CCExifGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A54C351C6267B500E2C8BF /* CCExifGeo.m */; };
-		F77B0E411D118A16002130FE /* CCSplit.m in Sources */ = {isa = PBXBuildFile; fileRef = F792A77C1BC7C45400C9388E /* CCSplit.m */; };
 		F77B0E4C1D118A16002130FE /* CCDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D0E65F1BC5042E008D989A /* CCDetail.m */; };
 		F77B0E4F1D118A16002130FE /* CCManageAutoUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACE42F1BAC0268006C0017 /* CCManageAutoUpload.m */; };
 		F77B0E5F1D118A16002130FE /* CCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACE4311BAC0268006C0017 /* CCSettings.m */; };
@@ -553,6 +552,7 @@
 		F7DFB7F0219C5B8000680748 /* NCCreateFormUploadAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFB7EF219C5B8000680748 /* NCCreateFormUploadAssets.swift */; };
 		F7DFB7F2219C5C0000680748 /* NCCreateFormUploadFileText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFB7F1219C5C0000680748 /* NCCreateFormUploadFileText.swift */; };
 		F7DFB7F4219C5CA800680748 /* NCCreateFormUploadScanDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFB7F3219C5CA800680748 /* NCCreateFormUploadScanDocument.swift */; };
+		F7E09CDB23E2CA6E00FB3E9E /* NCSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E09CDA23E2CA6E00FB3E9E /* NCSplitViewController.swift */; };
 		F7E0E1DC22327885006B0911 /* NCAudioRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E0E1DB22327885006B0911 /* NCAudioRecorderViewController.swift */; };
 		F7E0E1DE22327DBA006B0911 /* NCAudioRecorderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E0E1DD22327DBA006B0911 /* NCAudioRecorderViewController.storyboard */; };
 		F7E4D9C422ED929B003675FD /* NCShareComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E4D9C322ED929B003675FD /* NCShareComments.swift */; };
@@ -1143,8 +1143,6 @@
 		F78F74332163757000C2ADAD /* NCTrash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NCTrash.storyboard; sourceTree = "<group>"; };
 		F78F74352163781100C2ADAD /* NCTrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCTrash.swift; sourceTree = "<group>"; };
 		F790110D21415BF600D7B136 /* NCViewerRichdocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCViewerRichdocument.swift; sourceTree = "<group>"; };
-		F792A77B1BC7C45400C9388E /* CCSplit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSplit.h; sourceTree = "<group>"; };
-		F792A77C1BC7C45400C9388E /* CCSplit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSplit.m; sourceTree = "<group>"; };
 		F7956FC91B4886E60085DEA3 /* CCUploadFromOtherUpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUploadFromOtherUpp.h; sourceTree = "<group>"; };
 		F7956FCA1B4886E60085DEA3 /* CCUploadFromOtherUpp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUploadFromOtherUpp.m; sourceTree = "<group>"; };
 		F7956FCB1B4886E60085DEA3 /* CCUploadFromOtherUpp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CCUploadFromOtherUpp.storyboard; sourceTree = "<group>"; };
@@ -1351,6 +1349,7 @@
 		F7DFB7EF219C5B8000680748 /* NCCreateFormUploadAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCCreateFormUploadAssets.swift; sourceTree = "<group>"; };
 		F7DFB7F1219C5C0000680748 /* NCCreateFormUploadFileText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCCreateFormUploadFileText.swift; sourceTree = "<group>"; };
 		F7DFB7F3219C5CA800680748 /* NCCreateFormUploadScanDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCCreateFormUploadScanDocument.swift; sourceTree = "<group>"; };
+		F7E09CDA23E2CA6E00FB3E9E /* NCSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSplitViewController.swift; sourceTree = "<group>"; };
 		F7E0E1DB22327885006B0911 /* NCAudioRecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NCAudioRecorderViewController.swift; sourceTree = "<group>"; };
 		F7E0E1DD22327DBA006B0911 /* NCAudioRecorderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NCAudioRecorderViewController.storyboard; sourceTree = "<group>"; };
 		F7E45E6D21E75BF200579249 /* ja-JP */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja-JP"; path = "ja-JP.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -1617,8 +1616,7 @@
 				F73F537E1E929C8500F8678D /* CCMore.swift */,
 				F78F6FAE1CC8CCB700F4EA25 /* CCSection.h */,
 				F78F6FAF1CC8CCB700F4EA25 /* CCSection.m */,
-				F792A77B1BC7C45400C9388E /* CCSplit.h */,
-				F792A77C1BC7C45400C9388E /* CCSplit.m */,
+				F7E09CDA23E2CA6E00FB3E9E /* NCSplitViewController.swift */,
 				F7226EDB1EE4089300EBECB1 /* Main.storyboard */,
 				F7D6650620FF341600BFBA9E /* NCMainCommon.swift */,
 				F7682FDF23C36B0500983A04 /* NCMainTabBar.swift */,
@@ -3588,7 +3586,6 @@
 				F760F78D21F21F61006B1A73 /* Protocols.swift in Sources */,
 				F762CAFF1EACB66200B38484 /* XLFormPickerCell.m in Sources */,
 				F7A321AD1E9E6AD50069AD1B /* CCAdvanced.m in Sources */,
-				F77B0E411D118A16002130FE /* CCSplit.m in Sources */,
 				F73CC0781E813DFF006E3047 /* BKShiftingView.m in Sources */,
 				F7A3218C1E9E42B30069AD1B /* CCMenuAccount.m in Sources */,
 				F77B0E4C1D118A16002130FE /* CCDetail.m in Sources */,
@@ -3719,6 +3716,7 @@
 				F760F78E21F21F61006B1A73 /* PhotoEditor+Drawing.swift in Sources */,
 				F762CB0B1EACB66200B38484 /* XLFormRowDescriptor.m in Sources */,
 				F760F78921F21F61006B1A73 /* UIView+Image.swift in Sources */,
+				F7E09CDB23E2CA6E00FB3E9E /* NCSplitViewController.swift in Sources */,
 				F745B253222D88AE00346520 /* NCLoginQRCode.swift in Sources */,
 				F760F79221F21F61006B1A73 /* EmojisCollectionViewDelegate.swift in Sources */,
 				F7169A1C1EE590930086BD69 /* NCShares.m in Sources */,

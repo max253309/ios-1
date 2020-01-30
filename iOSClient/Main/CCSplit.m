@@ -42,7 +42,7 @@
     
     // Settings TabBar
     UINavigationController *navigationController = (UINavigationController *)[self.viewControllers firstObject];
-    navigationController.navigationBarHidden = true;
+    //navigationController.navigationBarHidden = true;
     UITabBarController *tabBarController = (UITabBarController *) navigationController.topViewController;
     [appDelegate createTabBarController:tabBarController];
     

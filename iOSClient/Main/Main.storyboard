@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Split-->
+        <!--Split View Controller-->
         <scene sceneID="B1o-fj-nYn">
             <objects>
-                <splitViewController id="4IE-mo-rkp" customClass="CCSplit" sceneMemberID="viewController">
+                <splitViewController id="4IE-mo-rkp" customClass="NCSplitViewController" customModule="Nextcloud" customModuleProvider="target" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
                         <segue destination="mtc-lf-PRo" kind="relationship" relationship="detailViewController" id="W5b-lw-8O1"/>
@@ -162,7 +162,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" tag="999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zlU-MP-ZVs">
-                                <rect key="frame" x="95.5" y="369.5" width="223" height="157.5"/>
+                                <rect key="frame" x="-16" y="290.5" width="446" height="315"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
