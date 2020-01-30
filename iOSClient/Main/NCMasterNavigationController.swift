@@ -8,7 +8,7 @@
 
 import Foundation
 
-class NCMasterNavigationController: UINavigationController, UINavigationControllerDelegate {
+class NCMasterNavigationController: UINavigationController {
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
@@ -16,7 +16,6 @@ class NCMasterNavigationController: UINavigationController, UINavigationControll
         super.viewDidLoad()
         self.delegate = self
         
-        // changeTheming
         NotificationCenter.default.addObserver(self, selector: #selector(self.changeTheming), name: NSNotification.Name(rawValue: "changeTheming"), object: nil)
         changeTheming()
     }
@@ -25,7 +24,10 @@ class NCMasterNavigationController: UINavigationController, UINavigationControll
         navigationBar.barTintColor = NCBrandColor.sharedInstance.brand
         navigationBar.tintColor = NCBrandColor.sharedInstance.brandText
     }
-    
+}
+
+extension NCMasterNavigationController: UINavigationControllerDelegate {
+
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
                 
         if self.splitViewController?.isCollapsed == true {
